@@ -1,0 +1,26 @@
+[project]
+name = "sciqis-project"
+version = "1.0.0"
+description = "A jupyter notebook to teach about Quantum Walks"
+readme = "README.md"
+authors = [
+    { name = "yamoceans", email = "yam.oceans@protonmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.11.1",
+    "numba>=0.67.0",
+    "pylatexenc>=2.11",
+    "qiskit>=2.5.2",
+    "qiskit-aer>=0.17.2",
+    "qutip>=5.3.1",
+    "qutip-qip>=0.4.2",
+]
+
+[project.scripts]
+sciqis-project = "sciqis_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
