@@ -1,6 +1,6 @@
 [project]
 name = "sciqis-project"
-version = "0.1.0"
+version = "1.0.0"
 description = "A jupyter notebook to teach about Quantum Walks"
 readme = "README.md"
 authors = [
